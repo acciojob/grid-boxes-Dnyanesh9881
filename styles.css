@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-columns:repeat(4,1fr);
+	grid-template-columns:repeat(4,236.25px);
 	grid-template-rows:repeat(5,124px);
 	grid-gap:8px;.
 	
@@ -15,7 +15,7 @@
 	background-color:green;
 }
 #item2{
-	grid-row:2 / -1;
+	grid-row:span 4;
 	background-color:green;
 }
 #item3{
@@ -23,11 +23,11 @@
 	background-color:green;
 }
 #item4{
-	grid-column:3 / -1;
+	grid-column:span 2;
 	background-color:green;
 }
 #item5{
-	grid-column:2 / 4;
+	grid-column:span 2;
 	background-color:green;
 }
 #item6,#item7,#item8,#item9{
@@ -35,6 +35,6 @@
 	background-color:green;
 }
 #item10{
-	grid-column:2 / -1;
+	grid-column:span 3;
 	background-color:green;
 }
